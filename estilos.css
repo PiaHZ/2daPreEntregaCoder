@@ -7,10 +7,10 @@
 } 
 
 h1{ 
-    height: 80px;
+    height: 60px;
     width: 100%;
     background-color: black;
-    font-size: 32px;
+    font-size: 26px;
     padding: 20px;
     font-family: 'Hind', sans-serif;
     letter-spacing:2px;
@@ -21,9 +21,9 @@ h1{
 }
 
 .parrafos h2{ 
-    height: 80px;
+    height: 60px;
     width: 100%;
-    font-size: 30px;
+    font-size: 20px;
     color: #1a2842;
     padding: 20px;
     font-family: 'Hind', sans-serif;
@@ -33,65 +33,29 @@ h1{
 }
 
 .redes h2{ 
-    height: 80px;
+    height: 60px;
     width: 100%;
-    font-size: 30px;
+    font-size: 24px;
     color: #ffffff;
     padding: 20px;
     font-family: 'Hind', sans-serif;
-    letter-spacing:8px;
+    letter-spacing:4px;
     float: center;
     text-decoration: none;
     text-align: center;
 }
 
 .cuadros h3{ 
-    height: 80px;
+    height: 50px;
     width: 100%;
-    font-size: 32px;
+    font-size: 18px;
     font-family: 'Hind', sans-serif;
-    letter-spacing:8px;
+    letter-spacing:4px;
     float: right;
     padding: 10px;
     margin-top: 50px;
     text-decoration: none;
     color: #1a2842;
-}
-
-h4{ 
-    height: 80px;
-    width: 100%;
-    font-size: 32px;
-    font-family: 'Hind', sans-serif;
-    letter-spacing:8px;
-    float: left;
-    padding: 10px;
-    margin-top: 50px;
-    text-decoration: none;
-}
-
-h5{ 
-    height: 80px;
-    width: 100%;
-    font-size: 32px;
-    font-family: 'Hind', sans-serif;
-    letter-spacing:8px;
-    float: right;
-    padding: 10px;
-    margin-top: 50px;
-    text-decoration: none;
-}
-
-h6{ 
-    height: 80px;
-    width: 100%;
-    font-size: 32px;
-    font-family: 'Hind', sans-serif;
-    letter-spacing:8px;
-    float: right;
-    padding: 10px;
-    margin-top: 50px;
-    text-decoration: none;
 }
 
 .logo{
@@ -129,7 +93,9 @@ h6{
 .main{
     grid-area: main;
     background-image: url(img/raagiesParaRedes.png);
-    background-size:cover;
+    background-size:contain;
+    background-position: center;
+    height: 100vp;
 }
 
 .body{
@@ -150,14 +116,14 @@ h6{
 footer{
     grid-area: footer;
     background-color: #0053FF;
-    font-size: 20px;
+    font-size: 14px;
     font-family: 'Hind', sans-serif;
     text-align: center;
     padding: 40px;
 }
 
 .parrafos p{
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Hind', sans-serif;
     text-align: left;
     padding: 14px;
@@ -165,7 +131,7 @@ footer{
 }
 
 .parrafos ul{
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Hind', sans-serif;
     text-align: left;
     padding-left: 30px;
@@ -173,9 +139,9 @@ footer{
 }
 
 .redes{
-    font-size: 40px;
+    font-size: 30px;
     padding: 20px;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     text-decoration: none;
     color: #1a2842;
 }
@@ -198,7 +164,7 @@ a:hover {
 }
 
 section{
-    height:400px ;
+    height:200px ;
     width: 100%;
     background-color: #00B2FE;
     display: flex;
@@ -213,7 +179,7 @@ section{
     font-size: 18px;
     font-family: 'Hind', sans-serif;
     width: 50%; 
-    height: 400px;   
+    height: 200px;   
     color: #ffff;
 }
 
@@ -224,7 +190,7 @@ section{
     background-size: cover;
     background-position: center;
     width: 50%; 
-    height: 400px;    
+    height: 200px;    
 }
 
  .divImagenEjes {
@@ -234,7 +200,7 @@ section{
     background-size: cover;
     background-position: top;
     width: 50%; 
-    height: 400px;    
+    height: 200px;    
 }
 
  .divImagenAcciones {
@@ -244,7 +210,7 @@ section{
     background-size: cover;
     background-position: center;
     width: 50%; 
-    height: 400px;    
+    height: 200px;    
 }
 
 .divImagenContacto {
@@ -254,7 +220,258 @@ section{
     background-size: cover;
     background-position: top;
     width: 50%; 
-    height: 400px;    
+    height: 200px;    
 }
  
+@media only screen and (min-width: 768px) {
+    h1{ 
+        height: 80px;
+        width: 100%;
+        background-color: black;
+        font-size: 32px;
+        padding: 20px;
+        font-family: 'Hind', sans-serif;
+        letter-spacing:2px;
+        float: right;
+        background-color: goldenrod;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    .parrafos h2{ 
+        height: 80px;
+        width: 100%;
+        font-size: 30px;
+        color: #1a2842;
+        padding: 20px;
+        font-family: 'Hind', sans-serif;
+        letter-spacing:2px;
+        float: right;
+        text-decoration: none;
+    }
+    
+    .redes h2{ 
+        height: 80px;
+        width: 100%;
+        font-size: 30px;
+        color: #ffffff;
+        padding: 20px;
+        font-family: 'Hind', sans-serif;
+        letter-spacing:8px;
+        float: center;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .cuadros h3{ 
+        height: 80px;
+        width: 100%;
+        font-size: 32px;
+        font-family: 'Hind', sans-serif;
+        letter-spacing:8px;
+        float: right;
+        padding: 10px;
+        margin-top: 50px;
+        text-decoration: none;
+        color: #1a2842;
+    }
+    
+    h4{ 
+        height: 80px;
+        width: 100%;
+        font-size: 32px;
+        font-family: 'Hind', sans-serif;
+        letter-spacing:8px;
+        float: left;
+        padding: 10px;
+        margin-top: 50px;
+        text-decoration: none;
+    }
+    
+    h5{ 
+        height: 80px;
+        width: 100%;
+        font-size: 32px;
+        font-family: 'Hind', sans-serif;
+        letter-spacing:8px;
+        float: right;
+        padding: 10px;
+        margin-top: 50px;
+        text-decoration: none;
+    }
+    
+    h6{ 
+        height: 80px;
+        width: 100%;
+        font-size: 32px;
+        font-family: 'Hind', sans-serif;
+        letter-spacing:8px;
+        float: right;
+        padding: 10px;
+        margin-top: 50px;
+        text-decoration: none;
+    }
+    
+    .logo{
+        float: right;
+    }
+    
+    .logo span{
+        text-shadow: 1 1 5px;
+    }
+    
+    .barra{
+        float: left;
+        text-decoration: none;
+        color: white;
+        font-family: 'Hind', sans-serif;
+        text-align: right;
+        background-color: #00B2FE;
+        width: 100%;
+        position: fixed;
+    } 
+    
+    .barra:hover{
+        text-shadow: 0 0 5px;
+        color: #1a2842;
+    }
+    
+    .barra ul{
+        list-style: none;
+    }
+    
+    .barra ul li{
+        display: inline-block;
+    }
+    
+    .main{
+        grid-area: main;
+        background-image: url(img/raagiesParaRedes.png);
+        background-size:cover;
+    }
+    
+    .body{
+        display: grid;
+        grid-template-areas: 
+        "main main"
+        "imagen texto"
+        "texto imagen"
+        "imagen texto"
+        "texto imagen"
+        "footer footer";   
+        height: 100vh;
+        grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 2px;
+    }
+    
+    footer{
+        grid-area: footer;
+        background-color: #0053FF;
+        font-size: 20px;
+        font-family: 'Hind', sans-serif;
+        text-align: center;
+        padding: 40px;
+    }
+    
+    .parrafos p{
+        font-size: 16px;
+        font-family: 'Hind', sans-serif;
+        text-align: left;
+        padding: 14px;
+        color:#1a2842
+    }
+    
+    .parrafos ul{
+        font-size: 16px;
+        font-family: 'Hind', sans-serif;
+        text-align: left;
+        padding-left: 30px;
+        color:#1a2842
+    }
+    
+    .redes{
+        font-size: 40px;
+        padding: 20px;
+        letter-spacing: 10px;
+        text-decoration: none;
+        color: #1a2842;
+    }
+    
+    .redes a:hover {
+        background-size: widht; 100%;
+        color:goldenrod;
+    }
+    
+    a:hover {
+        color: goldenrod;
+      }
+    
+    .padreFlex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    
+    section{
+        height:400px ;
+        width: 100%;
+        background-color: #00B2FE;
+        display: flex;
+        font-size: medium;
+        font-family: 'Hind', sans-serif;
+    }
+    
+    .divTexto {
+        grid-area: divTexto;
+        border: none;
+        display: inline-block;
+        font-size: 18px;
+        font-family: 'Hind', sans-serif;
+        width: 50%; 
+        height: 400px;   
+        color: #ffff;
+    }
+    
+    .divImagenMyObj {
+        grid-area: divImagenMyObj;
+        display: inline-block;
+        background-image: url(./img/edificioLogo.png);
+        background-size: cover;
+        background-position: center;
+        width: 50%; 
+        height: 400px;    
+    }
+    
+     .divImagenEjes {
+        grid-area: divImagenEjes;
+        display: inline-block;
+        background-image: url(img/brazospp.jpg);
+        background-size: cover;
+        background-position: top;
+        width: 50%; 
+        height: 400px;    
+    }
+    
+     .divImagenAcciones {
+        grid-area: divImagenAcciones;
+        display: inline-block;
+        background-image: url(img/exposicion.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 50%; 
+        height: 400px;    
+    }
+    
+    .divImagenContacto {
+        grid-area: divImagenContacto;
+        display: inline-block;
+        background-image: url(img/quienesSomos.jpg);
+        background-size: cover;
+        background-position: top;
+        width: 50%; 
+        height: 400px;    
+    }
     
